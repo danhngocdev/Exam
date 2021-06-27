@@ -1,0 +1,18 @@
+﻿@Html.Partial("_PartialHeader")
+@RenderSection("styles", required: false)
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container-fluid px-4">
+            @RenderBody()
+        </div>
+    </main>
+
+    @Html.Partial("_PartialFooter")
+
+    <script>
+      @RenderSection("scripts", required: false)
+    </script>
+
+
+
+

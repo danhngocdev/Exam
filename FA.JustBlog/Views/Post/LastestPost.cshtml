@@ -1,0 +1,14 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Post>
+
+@{
+    Layout = @"~\Views\Shared\_LayoutPostPage.cshtml";
+    ViewBag.Title = "LastestPost";
+}
+
+<h1>Get lasted post</h1>
+@foreach (var item in Model)
+{
+    <h3 style="color:blue">@item.Title</h3>
+    <p>Posted @item.PostedOn with rate @item.Rate by @item.ViewCount view(s)</p>
+    <p>@item.PostContent</p>
+}

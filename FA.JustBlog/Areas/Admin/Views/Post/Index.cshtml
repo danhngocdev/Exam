@@ -1,0 +1,101 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Post>
+@using GridMvc.Html;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout_admin.cshtml";
+}
+
+@section styles{
+    @Styles.Render("~/Content/Gridmvc")
+}
+<p style="margin-top: 20px;">
+    @Html.ActionLink("Create New Post >>>", "Create")
+</p>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-9 mx-auto">
+            <!-- Main Content-->
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 col-xl-9">
+                        <!-- Post preview-->
+                        <div class="post-preview">
+                            @foreach (var item in Model)
+                            {
+                                <a href="@Url.Action("Details", new { id = item.Id})">
+                                    <h2 class="post-title">@item.Title</h2>
+                                    <h3 class="post-subtitle">@Html.DisplayFor(modelItem => item.ShortDescription)</h3>
+                                </a>
+                                <p class="post-meta">
+                                    Posted on @Html.DisplayFor(modelItem => item.PostedOn)
+                                </p>
+
+
+                                @*<input type="submit" class="btn btn-dark" value="Update" onclick="location.href='@Url.Action("Edit", new {id = item.Id})'" />*@
+                                <a href="@Url.Action("Edit",new {id = item.Id})" class="btn btn-dark col-md-offset-9 col-md-3">Update</a>
+                                <a href="@Url.Action("Delete",new {id = item.Id})"
+                                   class="btn btn-danger col-md-offset-9 col-md-3"
+                                   onclick="return confirm('Xóa thiệt hôn?')">Delete</a>
+                                <!-- Divider-->
+                                <hr class="my-4" />
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 mx-auto">
+            @Html.Action("LatestViews", "Post")
+            @Html.Action("MostViewedPosts", "Post")
+            @*@Html.Partial("MostInterestingPosts", "Post")*@
+            @Html.Action("MostInterestingPosts", "Post")
+            @Html.Action("PublishedPosts", "Post")
+            @Html.Action("UnpublishedPosts", "Post")
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        @Html.Grid(Model).Named("ListPost").Columns(c =>
+   {
+       c.Add(x => x.Id).Titled("Id").Filterable(true).Sortable(true);
+       c.Add(x => x.Title).Titled("Title").Filterable(true).Sortable(true);
+       c.Add(x => x.ShortDescription).Titled("ShortDescription").Filterable(true).Sortable(true);
+       c.Add(x => x.PostContent).Titled("PostContent").Filterable(true).Sortable(true);
+ 
+
+
+   }).WithPaging(5).EmptyText("No Data Found")
+
+    </div>
+</div>
+
+
+
+
+@section scripts{
+    @Scripts.Render("~/bundles/Gridmvc")
+}
+@*<script>
+        $(document).ready(function(){
+            var oTable = $(#myDataTable)({
+                "ajax": {
+                    "url": '/home/GetDetails',
+                    "type": "get",
+                    "datatype": "json"
+                },
+                "column": [
+                    {"data": "Id", "autoWidth": true},
+                    {"data": "Title", "autoWidth": true},
+                    {"data": "ShortDescription", "autoWidth": true},
+                    {"data": "PostContent", "autoWidth": true},
+                ]
+            })
+        })
+    </script>*@
+
+

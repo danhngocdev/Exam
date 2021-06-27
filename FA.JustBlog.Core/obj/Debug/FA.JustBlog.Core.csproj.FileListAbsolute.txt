@@ -1,0 +1,60 @@
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel.resources
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel1.resources
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel.resources
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel1.resources
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb
+D:\DATA\MVC\justblog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+D:\DATA\MVC\justblog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+D:\DATA\MVC\justblog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+D:\DATA\MVC\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+D:\DATA\MVC\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\DATA\MVC\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+D:\DATA\MVC\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.AssemblyReference.cache
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel.resources
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel1.resources
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+D:\DATA\MVC\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel.resources
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.InitialModel1.resources
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb

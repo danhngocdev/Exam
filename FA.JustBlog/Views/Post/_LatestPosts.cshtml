@@ -1,0 +1,25 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Post>
+@{
+    ViewBag.Title = "LatestPosts";
+}
+
+<div class="mb-3" style="margin-top: 3rem;">
+    <h5 style="text-transform: uppercase">Top 5 latest views</h5>
+    @if (Model == null)
+    {
+        <p style="font-weight: bold;">No post found</p>
+    }
+    else
+    {
+        <ul style="text-align: justify">
+            @foreach (var item in Model)
+            {
+                <li style="font-size: smaller; list-style-type: square">
+                    <a href="@item.Url_Post">
+                        <h5 class="post-title">@item.Title</h5>
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>

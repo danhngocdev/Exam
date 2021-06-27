@@ -1,0 +1,30 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Post>
+@{
+    ViewBag.Title = "Latest Posts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-9 mx-auto">
+    <!-- Main Content-->
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <!-- Post preview-->
+                <div class="post-preview">
+                    @foreach (var item in Model)
+                    {
+                        <a href="Home/Details/@item.Id">
+                            <h2 class="post-title">@item.Title</h2>
+                            <h3 class="post-subtitle">@Html.DisplayFor(modelItem => item.ShortDescription)</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted on @Html.DisplayFor(modelItem => item.PostedOn)
+                        </p>
+                        <!-- Divider-->
+                        <hr class="my-4" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

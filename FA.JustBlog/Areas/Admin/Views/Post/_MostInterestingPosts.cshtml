@@ -1,0 +1,25 @@
+﻿@*@model IEnumerable<FA.JustBlog.Core.DTO.PostRateDTO>*@
+
+@model IEnumerable<FA.JustBlog.Core.Models.PostRateModel>
+@{
+    ViewBag.Title = "MostInterestingPosts";
+}
+
+<div class="mb-3" style="margin-top: 3rem;">
+    <h5 style="text-transform: uppercase">Top 5 interesting views</h5>
+    @if (Model == null)
+    {
+        <p style="font-weight: bold;">No post found</p>
+    }
+    else
+    {
+        <ul style="text-align: justify">
+            @foreach (var item in Model)
+            {
+                <li style="font-size: smaller; list-style-type: square">
+                   <a>@item.Content</a>
+                </li>
+            }
+        </ul>
+    }
+</div>

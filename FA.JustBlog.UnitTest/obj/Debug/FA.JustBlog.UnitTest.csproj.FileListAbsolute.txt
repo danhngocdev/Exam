@@ -1,0 +1,30 @@
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\NUnit3.TestAdapter.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\NUnit3.TestAdapter.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\nunit.engine.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\nunit.engine.api.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\FA.JustBlog.UnitTest.exe.config
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\FA.JustBlog.UnitTest.exe
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\FA.JustBlog.UnitTest.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\FA.JustBlog.Core.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\nunit.framework.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\EntityFramework.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\FA.JustBlog.Core.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\FA.JustBlog.Core.dll.config
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\nunit.framework.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\nunit.framework.xml
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\EntityFramework.xml
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csprojAssemblyReference.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csproj.CoreCompileInputs.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csproj.CopyComplete
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.exe
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.pdb
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\ASM1\JustBlog\FA.JustBlog.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csprojAssemblyReference.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csproj.CoreCompileInputs.cache
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.exe
+D:\DATA\EDU\STUDY\FSoft\Work\MVC\ASM\FA.JustBlog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.pdb
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.exe
+C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.pdb

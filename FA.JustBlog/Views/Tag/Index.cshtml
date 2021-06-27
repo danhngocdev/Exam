@@ -1,0 +1,17 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Tag>
+@{
+    ViewBag.Title = "PopularTags";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h5 style="text-transform: uppercase">Popular tags:</h5>
+<ul style="text-align: justify">
+    @foreach (var item in Model)
+    {
+        <li style="font-size: smaller">
+            <a href="tag/@item.UrlSlug">
+                <h2 class="post-title">@item.Name</h2>
+            </a>
+        </li>
+    }
+</ul>

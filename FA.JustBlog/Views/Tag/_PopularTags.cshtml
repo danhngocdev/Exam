@@ -1,0 +1,44 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Tag>
+@{
+    ViewBag.Title = "PopularTags";
+}
+
+<h5 style="text-transform: uppercase">Popular tags:</h5>
+<ul style="text-align: justify">
+    @foreach (var item in Model)
+    {
+        <li style="font-size: smaller">
+            <a href="Home/@item.UrlSlug">
+                <h2 class="post-title">@item.Name</h2>
+            </a>
+        </li>
+    }
+</ul>
+
+<span class="label label-default">Default Label</span>
+<span class="label label-primary">Primary Label</span>
+<span class="label label-success">Success Label</span>
+<span class="label label-info">Info Label</span>
+<span class="label label-warning">Warning Label</span>
+<span class="label label-danger">Danger Label</span>
+
+<div class="mb-3">
+    <h5 style="text-transform: uppercase">Popular tags:</h5>
+    @if (Model == null)
+    {
+        <p style="font-weight: bold;">No tag found</p>
+    }
+    else
+    {
+        <ul style="text-align: justify">
+            @foreach (var item in Model)
+            {
+                <li style="font-size: smaller">
+                    <a href="Home/Details/@item.Name">
+                        @*<h2 class="post-title">@item.Title</h2>*@
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>

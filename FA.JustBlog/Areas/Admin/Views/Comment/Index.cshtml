@@ -1,0 +1,22 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Comment>
+@using GridMvc.Html;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout_admin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        @Html.Grid(Model).Named("ListComment").Columns(c =>
+   {
+       c.Add(x => x.Id).Titled("Id").Filterable(true).Sortable(true);
+       c.Add(x => x.Name).Titled("Name").Filterable(true).Sortable(true);
+       c.Add(x => x.Email).Titled("Email").Filterable(true).Sortable(true);
+       c.Add(x => x.CommentText).Titled("Content").Filterable(true).Sortable(true);
+
+
+
+   }).WithPaging(5).EmptyText("No Data Found")
+
+    </div>
+</div>

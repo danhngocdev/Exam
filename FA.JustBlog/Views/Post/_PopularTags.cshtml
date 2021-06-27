@@ -1,0 +1,23 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Tag>
+@{
+    ViewBag.Title = "PopularTags";
+}
+
+<div class="mb-3" style="margin-top: 3rem;">
+    <span style="font-weight: bold; text-decoration: underline;">Tags:</span>
+    @if (Model == null)
+    {
+        <p style="font-weight: bold;">No tag found</p>
+    }
+    else
+    {
+        foreach (var item in Model)
+        {
+            <a href="@item.Url">
+                <span class="label-default" style="font-family: Arial;">
+                    <small>@item.Name</small>
+                </span>
+            </a>
+        }
+    }
+</div>

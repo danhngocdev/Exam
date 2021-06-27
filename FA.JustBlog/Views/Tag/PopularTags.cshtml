@@ -1,0 +1,14 @@
+﻿@model FA.JustBlog.Core.Models.Tag
+@{
+    ViewBag.Title = "PopularTags";
+}
+@if (Model != null)
+{
+    <h2>@Model.Name</h2>
+}
+else
+{
+    <h1>Not found data</h1>
+}
+
+
