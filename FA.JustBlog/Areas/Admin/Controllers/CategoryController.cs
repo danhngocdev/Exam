@@ -1,4 +1,5 @@
 ﻿using FA.JustBlog.Core.Models;
+using FA.JustBlog.CustomAuthentication;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,17 +8,17 @@ using System.Web.Mvc;
 
 namespace FA.JustBlog.Areas.Admin.Controllers
 {
+    [CustomAuthorize(Roles = "User")]
     public class CategoryController : Controller
     {
+        private JustBlogContext db = new JustBlogContext();
 
-        JustBlogContext db = new JustBlogContext();
         // GET: Admin/Category
         public ActionResult Index()
         {
             var data = db.Categories.ToList();
             return View(data);
         }
-
 
         public ActionResult Create()
         {
@@ -36,18 +37,14 @@ namespace FA.JustBlog.Areas.Admin.Controllers
             return View();
         }
 
-
         [HttpGet]
-
         public ActionResult Edit(int Id)
         {
             var obj = db.Categories.Where(x => x.Id == Id).FirstOrDefault();
             return View(obj);
         }
 
-
         [HttpPost]
-       
         public ActionResult Edit(Category p)
         {
             if (ModelState.IsValid)
@@ -55,11 +52,10 @@ namespace FA.JustBlog.Areas.Admin.Controllers
                 db.Entry(p).State = System.Data.Entity.EntityState.Modified;
 
                 db.SaveChanges();
-
             }
             return RedirectToAction("Index");
         }
-       
+
         public ActionResult Delete(int Id)
         {
             var cate = db.Categories.Where(x => x.Id == Id).FirstOrDefault();
@@ -67,10 +63,5 @@ namespace FA.JustBlog.Areas.Admin.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-
-
-
-
-
     }
 }

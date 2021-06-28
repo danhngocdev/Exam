@@ -43,3 +43,18 @@ C:\Users\nguye\Desktop\New folder\justblog\TestConsole\obj\Debug\TestConsole.csp
 C:\Users\nguye\Desktop\New folder\justblog\TestConsole\obj\Debug\TestConsole.csproj.CopyComplete
 C:\Users\nguye\Desktop\New folder\justblog\TestConsole\obj\Debug\TestConsole.exe
 C:\Users\nguye\Desktop\New folder\justblog\TestConsole\obj\Debug\TestConsole.pdb
+E:\NDNGOC\Exam\TestConsole\bin\Debug\TestConsole.exe.config
+E:\NDNGOC\Exam\TestConsole\bin\Debug\TestConsole.exe
+E:\NDNGOC\Exam\TestConsole\bin\Debug\TestConsole.pdb
+E:\NDNGOC\Exam\TestConsole\bin\Debug\EntityFramework.dll
+E:\NDNGOC\Exam\TestConsole\bin\Debug\EntityFramework.SqlServer.dll
+E:\NDNGOC\Exam\TestConsole\bin\Debug\FA.JustBlog.Core.dll
+E:\NDNGOC\Exam\TestConsole\bin\Debug\FA.JustBlog.Core.pdb
+E:\NDNGOC\Exam\TestConsole\bin\Debug\FA.JustBlog.Core.dll.config
+E:\NDNGOC\Exam\TestConsole\bin\Debug\EntityFramework.xml
+E:\NDNGOC\Exam\TestConsole\bin\Debug\EntityFramework.SqlServer.xml
+E:\NDNGOC\Exam\TestConsole\obj\Debug\TestConsole.csprojAssemblyReference.cache
+E:\NDNGOC\Exam\TestConsole\obj\Debug\TestConsole.csproj.CoreCompileInputs.cache
+E:\NDNGOC\Exam\TestConsole\obj\Debug\TestConsole.csproj.CopyComplete
+E:\NDNGOC\Exam\TestConsole\obj\Debug\TestConsole.exe
+E:\NDNGOC\Exam\TestConsole\obj\Debug\TestConsole.pdb

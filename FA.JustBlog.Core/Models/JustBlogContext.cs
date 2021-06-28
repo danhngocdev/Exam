@@ -11,13 +11,16 @@ namespace FA.JustBlog.Core.Models
     {
         public JustBlogContext() : base("DefaultConnection")
         {
-           Database.SetInitializer<JustBlogContext>(new JustBlogInitializer());
+            Database.SetInitializer<JustBlogContext>(new JustBlogInitializer());
         }
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Comment> Comments { get; set; }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -29,6 +32,16 @@ namespace FA.JustBlog.Core.Models
                     pt.MapLeftKey("PostId");
                     pt.MapRightKey("TagId");
                     pt.ToTable("PostTagMap");
+                });
+
+            modelBuilder.Entity<User>()
+                .HasMany(u => u.Roles)
+                .WithMany(r => r.Users)
+                .Map(m =>
+                {
+                    m.ToTable("UserRoles");
+                    m.MapLeftKey("UserId");
+                    m.MapRightKey("RoleId");
                 });
 
             base.OnModelCreating(modelBuilder);

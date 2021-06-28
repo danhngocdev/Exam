@@ -58,3 +58,17 @@ C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlo
 C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
 C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
 C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb
+E:\NDNGOC\Exam\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll.config
+E:\NDNGOC\Exam\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.dll
+E:\NDNGOC\Exam\FA.JustBlog.Core\bin\Debug\FA.JustBlog.Core.pdb
+E:\NDNGOC\Exam\FA.JustBlog.Core\bin\Debug\EntityFramework.dll
+E:\NDNGOC\Exam\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\NDNGOC\Exam\FA.JustBlog.Core\bin\Debug\EntityFramework.xml
+E:\NDNGOC\Exam\FA.JustBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\NDNGOC\Exam\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csprojAssemblyReference.cache
+E:\NDNGOC\Exam\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+E:\NDNGOC\Exam\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.CopyComplete
+E:\NDNGOC\Exam\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.dll
+E:\NDNGOC\Exam\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.pdb
+E:\NDNGOC\Exam\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.Migrations.initial_migration.resources
+E:\NDNGOC\Exam\FA.JustBlog.Core\obj\Debug\FA.JustBlog.Core.csproj.GenerateResource.cache

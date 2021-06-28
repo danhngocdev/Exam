@@ -7,13 +7,13 @@ namespace FA.JustBlog.Core.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    public sealed partial class initial_migration : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial_migration));
         
         string IMigrationMetadata.Id
         {
-            get { return "202106170204462_InitialModel"; }
+            get { return "202106280344017_initial_migration"; }
         }
         
         string IMigrationMetadata.Source

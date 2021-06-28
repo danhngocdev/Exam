@@ -3,7 +3,7 @@ namespace FA.JustBlog.Core.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialModel : DbMigration
+    public partial class initial_migration : DbMigration
     {
         public override void Up()
         {
@@ -28,7 +28,7 @@ namespace FA.JustBlog.Core.Migrations
                         PostContent = c.String(storeType: "ntext"),
                         Meta = c.String(),
                         UrlSlug = c.String(maxLength: 255),
-                        Published = c.Boolean(nullable: false),
+                        Published = c.DateTime(nullable: false),
                         PostedOn = c.DateTime(name: "Posted On", nullable: false),
                         Modified = c.DateTime(),
                         CategoryId = c.Int(nullable: false),
@@ -68,6 +68,30 @@ namespace FA.JustBlog.Core.Migrations
                 .PrimaryKey(t => t.Name);
             
             CreateTable(
+                "dbo.Roles",
+                c => new
+                    {
+                        RoleId = c.Int(nullable: false, identity: true),
+                        RoleName = c.String(),
+                    })
+                .PrimaryKey(t => t.RoleId);
+            
+            CreateTable(
+                "dbo.Users",
+                c => new
+                    {
+                        UserId = c.Int(nullable: false, identity: true),
+                        Username = c.String(),
+                        FirstName = c.String(),
+                        LastName = c.String(),
+                        Email = c.String(),
+                        Password = c.String(),
+                        IsActive = c.Boolean(nullable: false),
+                        ActivationCode = c.Guid(nullable: false),
+                    })
+                .PrimaryKey(t => t.UserId);
+            
+            CreateTable(
                 "dbo.PostTagMap",
                 c => new
                     {
@@ -79,21 +103,40 @@ namespace FA.JustBlog.Core.Migrations
                 .ForeignKey("dbo.Tags", t => t.TagId, cascadeDelete: true)
                 .Index(t => t.PostId)
                 .Index(t => t.TagId);
-
+            
+            CreateTable(
+                "dbo.UserRoles",
+                c => new
+                    {
+                        UserId = c.Int(nullable: false),
+                        RoleId = c.Int(nullable: false),
+                    })
+                .PrimaryKey(t => new { t.UserId, t.RoleId })
+                .ForeignKey("dbo.Users", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.Roles", t => t.RoleId, cascadeDelete: true)
+                .Index(t => t.UserId)
+                .Index(t => t.RoleId);
             
         }
         
         public override void Down()
         {
+            DropForeignKey("dbo.UserRoles", "RoleId", "dbo.Roles");
+            DropForeignKey("dbo.UserRoles", "UserId", "dbo.Users");
             DropForeignKey("dbo.PostTagMap", "TagId", "dbo.Tags");
             DropForeignKey("dbo.PostTagMap", "PostId", "dbo.Posts");
             DropForeignKey("dbo.Comments", "PostId", "dbo.Posts");
             DropForeignKey("dbo.Posts", "CategoryId", "dbo.Categories");
+            DropIndex("dbo.UserRoles", new[] { "RoleId" });
+            DropIndex("dbo.UserRoles", new[] { "UserId" });
             DropIndex("dbo.PostTagMap", new[] { "TagId" });
             DropIndex("dbo.PostTagMap", new[] { "PostId" });
             DropIndex("dbo.Comments", new[] { "PostId" });
             DropIndex("dbo.Posts", new[] { "CategoryId" });
+            DropTable("dbo.UserRoles");
             DropTable("dbo.PostTagMap");
+            DropTable("dbo.Users");
+            DropTable("dbo.Roles");
             DropTable("dbo.Tags");
             DropTable("dbo.Comments");
             DropTable("dbo.Posts");

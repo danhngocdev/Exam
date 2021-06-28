@@ -28,3 +28,7 @@ C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.Jus
 C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csproj.CoreCompileInputs.cache
 C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.exe
 C:\Users\nguye\Desktop\New folder\justblog\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.pdb
+E:\NDNGOC\Exam\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csprojAssemblyReference.cache
+E:\NDNGOC\Exam\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.csproj.CoreCompileInputs.cache
+E:\NDNGOC\Exam\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.exe
+E:\NDNGOC\Exam\FA.JustBlog.UnitTest\obj\Debug\FA.JustBlog.UnitTest.pdb

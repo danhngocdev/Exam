@@ -171,10 +171,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\CommentController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ErrorController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\PostController.cs" />
+    <Compile Include="Areas\Admin\Models\LoginView.cs" />
     <Compile Include="Areas\Admin\Models\PostAdmin.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
@@ -186,6 +189,12 @@
     <Compile Include="Controllers\RolesAdminController.cs" />
     <Compile Include="Controllers\TagController.cs" />
     <Compile Include="Controllers\UserAdminController.cs" />
+    <Compile Include="CustomAuthentication\CustomAuthorizeAttribute.cs" />
+    <Compile Include="CustomAuthentication\CustomPrincipal.cs" />
+    <Compile Include="CustomAuthentication\CustomMembership.cs" />
+    <Compile Include="CustomAuthentication\CustomMembershipUser.cs" />
+    <Compile Include="CustomAuthentication\CustomRole.cs" />
+    <Compile Include="CustomAuthentication\CustomSerializeModel.cs" />
     <Compile Include="CustomHelper\CustomHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -757,6 +766,8 @@
     <Content Include="Areas\Admin\Views\Category\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Comment\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Error\AccessDenied.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\gridmvc.js" />
     <Content Include="Scripts\gridmvc.lang.ru.js" />
